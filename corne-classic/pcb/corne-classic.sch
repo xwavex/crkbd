@@ -1319,7 +1319,7 @@ F 3 "" H 2775 4100 60  0001 C CNN
 	1    2775 4100
 	-1   0    0    1   
 $EndComp
-Text GLabel 5375 3625 2    60   Input ~ 0
+Text GLabel 4150 3100 2    60   Input ~ 0
 LED
 Connection ~ 8450 3650
 Connection ~ 9150 3650
@@ -1670,7 +1670,7 @@ Connection ~ 3775 4375
 Wire Wire Line
 	5375 3825 5375 4000
 Wire Wire Line
-	2250 3825 2575 3825
+	2250 3825 2375 3825
 Wire Wire Line
 	4975 3625 4975 3825
 Connection ~ 4975 3825
@@ -1686,12 +1686,6 @@ Wire Wire Line
 	4600 3425 4600 3625
 Wire Wire Line
 	4600 3625 4175 3625
-Wire Wire Line
-	3775 3425 3375 3425
-Wire Wire Line
-	3375 3425 3375 3625
-Wire Wire Line
-	3375 3625 2975 3625
 Wire Wire Line
 	2575 3425 2450 3425
 Wire Wire Line
@@ -1861,8 +1855,6 @@ Wire Wire Line
 	7650 5460 7650 5660
 Wire Wire Line
 	7650 5660 7650 5810
-Wire Wire Line
-	4175 3300 5375 3300
 Wire Wire Line
 	5375 3300 5775 3300
 Wire Wire Line
@@ -2368,4 +2360,88 @@ Text GLabel 1100 2200 0    47   Input ~ 0
 row4
 Connection ~ 7150 2750
 Connection ~ 4175 3300
+$Comp
+L kbd:SK6812MINI L111
+U 1 1 5BE68B86
+P 2750 3000
+F 0 "L111" H 2750 3000 59  0000 C CNN
+F 1 "SK6812MINI" H 2750 2950 16  0000 C CNN
+F 2 "kbd:SK6812MINI_underglow_rev" H 2750 3000 60  0001 C CNN
+F 3 "" H 2750 3000 60  0001 C CNN
+	1    2750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SK6812MINI L0
+U 1 1 5BE68CE7
+P 3950 3000
+F 0 "L0" H 3950 3000 59  0000 C CNN
+F 1 "SK6812MINI" H 3950 2950 16  0000 C CNN
+F 2 "kbd:SK6812MINI_underglow_rev" H 3950 3000 60  0001 C CNN
+F 3 "" H 3950 3000 60  0001 C CNN
+	1    3950 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5375 3625 5900 3625
+Wire Wire Line
+	5900 3625 5900 2925
+Wire Wire Line
+	4425 3300 4425 2900
+Wire Wire Line
+	4425 2900 4225 2900
+Wire Wire Line
+	4175 3300 4425 3300
+Connection ~ 4425 3300
+Wire Wire Line
+	4425 3300 5375 3300
+Wire Wire Line
+	4225 2900 4225 2800
+Wire Wire Line
+	4225 2800 2950 2800
+Wire Wire Line
+	2950 2800 2950 2900
+Connection ~ 4225 2900
+Wire Wire Line
+	4225 2900 4150 2900
+Wire Wire Line
+	2375 3825 2375 3225
+Connection ~ 2375 3825
+Wire Wire Line
+	2375 3825 2575 3825
+Wire Wire Line
+	2375 3225 3750 3225
+Wire Wire Line
+	3750 3225 3750 3100
+Connection ~ 2375 3225
+Wire Wire Line
+	2375 3225 2375 3100
+Wire Wire Line
+	5900 2925 4625 2925
+Wire Wire Line
+	4625 2925 4625 2675
+Wire Wire Line
+	4625 2675 3650 2675
+Wire Wire Line
+	3650 2675 3650 2900
+Wire Wire Line
+	3650 2900 3750 2900
+Wire Wire Line
+	3775 3425 3250 3425
+Wire Wire Line
+	3250 3425 3250 3100
+Wire Wire Line
+	3250 3100 2950 3100
+Wire Wire Line
+	3100 3275 3100 3625
+Wire Wire Line
+	3100 3625 2975 3625
+Wire Wire Line
+	2375 3100 2550 3100
+Wire Wire Line
+	2175 3275 2175 2900
+Wire Wire Line
+	2175 2900 2550 2900
+Wire Wire Line
+	2175 3275 3100 3275
 $EndSCHEMATC
