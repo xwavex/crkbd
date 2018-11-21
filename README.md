@@ -1,14 +1,25 @@
-# Corne keyboard
-Corne keyboard, a split keyboard with 3x6 column staggered keys and 3 thumb keys, based on [Helix](https://github.com/MakotoKurauchi/helix).
-Crkbd stands for Corne Keyboard.
+# Singularity Keyboard, based on the Corne Keyboard.
 
-## Lineups
-- corne-classic
-- corne-cherry: Hotswappable corne for CherryMX switches by kailh PCB sockets.
-- [wip] corne-chocolate: Hotswappable corne for Chocolate switches by kailh PCB sockets.
+## Parts
+| Part | Amount | Description |
+|:-|:-|:-|
+| PCB | 2 | |
+| Plate | 2 | |
+| ProMicro | 2 | |
+| TRRS Jack | 2 | MJ-4PP-9, PJ320A (3.5mm jack) |
+| TRS(3-Pol) Cable | 1 | TRRS(4-Pol) Cable may be used as well? |
+| Tactile Reset Switch | 2 | |
+| Diode 1n4148w (sod 123) | 56 | For Low-Pro only surface mountable |
+| Keyswitch | 56 | |
+| Keycap | 56 | 54 x 1u and 2 x 1.5u |
+| Standoffs / Spacer M2 | 14 | 6 mm for High-Pro, 4mm for Low-Pro |
+| Standoffs / Spacer M2 8 mm or 10 mm | 4 | For OLED height |
+| Screws M2 | 36 | 3 mm and 5 mm ? |
+| Rubber feets | 8-10 | |
 
-## Photos
-![01](https://user-images.githubusercontent.com/736191/43596506-7628b2aa-96ba-11e8-9799-a18d90477979.png)
-![02](https://user-images.githubusercontent.com/736191/43596513-7c342d46-96ba-11e8-8794-0e2cc396ed81.png)
-![03](https://user-images.githubusercontent.com/736191/43596530-8330e31e-96ba-11e8-8aee-4956470d2c3b.png)
-![04](https://user-images.githubusercontent.com/736191/43596538-8ab6be6a-96ba-11e8-90c5-13edd2eb7fb4.png)
+| Part (optional) | Amount | Description |
+|:-|:-|:-|
+| OLED Display | 2 | |
+| 4 Pin Header | 2 | For easier exchange of OLED |
+| 4 Pin  Sockets | 2 | For easier exchange of OLED |
+| SK6812MINI | 72 | Top-facing 28, Bottom-facing 8 |
