@@ -5,7 +5,7 @@
 |:-|:-|:-|
 | PCB | 2 | |
 | Plate | 2 | |
-| ProMicro | 2 | |
+| ProMicro | 2 | https://www.makershop.de/plattformen/arduino/pro-micro-32u4/ |
 | TRRS Jack | 2 | MJ-4PP-9, PJ320A (3.5mm jack) |
 | TRS(3-Pol) Cable | 1 | TRRS(4-Pol) Cable may be used as well? |
 | Tactile Reset Switch | 2 | |
